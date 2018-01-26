@@ -31,20 +31,35 @@ function fun1()
 <BODY onload="fun2()">
 
 
-
-
-
-
-
-
-
 <h1> Test Browser Platform (32 or 64 bit) </h1>
+
+<script type="text/javascript">
+   var userip;
+ </script>
+ 
+ <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+ 
+ <script type="text/javascript">
+   document.writeln("<i>" + "Start of Client Java Script" + "</i>");
+   document.writeln("<br>")
+   document.writeln("<br>")
+   document.writeln("Your IP is :", userip);
+   document.writeln("<br>")
+   document.writeln("    <<<<< nl = 85.115.33.180")
+   document.writeln("<br>")
+   document.writeln("    <<<<< se= 85.115.37.180")
+   document.writeln("<br>")
+ </script>
+
+
+
+
 
 <script src="http://java.com/js/deployJava.js"></script>
 <script type="text/javascript">
 
 
- document.writeln("<i>" + "Start of Client Java Script" + "</i>");
+
  
  
 
@@ -62,23 +77,18 @@ function fun1()
 
 	
 	
-   	var x = "Java Enabled: " + navigator.javaEnabled();
+	var x = "Java Enabled: " + navigator.javaEnabled();
 	document.writeln(x + "<br>");
 	document.writeln("_qp_"+"<br>");
 	document.writeln = java.lang.System.getProperty("java.version"); 
-    document.writeln("_qp_"+"<br>");
-   
-	
+	document.writeln("_qp_"+"<br>");
 
 	document.writeln("<br>")
-    document.writeln("<i>" + "End of Client Java Script" + "</i>");
+	document.writeln("<i>" + "End of Client Java Script" + "</i>");
 	document.writeln("<br>");
 	document.writeln("<br>");
 	document.writeln("<br>");
-	
-	
-
-    document.writeln("This is a Client Java Script");
+	document.writeln("This is a Client Java Script");
 </script>
 <p>
 
@@ -91,9 +101,6 @@ function fun1()
 </p>
 <a href="http://www.w3schools.com/">Visit W3Schools</a>
 <a href="http://gotweb01.johnsonmatthey.com:8080/viewvc">JMG SVN Repo</a>
-
-
-
 <p>
 
 <a href="mailto:gotsupport@matthey.com?Subject=W0102%20behöver%20justeras">
@@ -109,7 +116,7 @@ Send Mail to gotsupport@matthey.com </a>
 <br>
 <a href="https://logon.infotjenester.no/logon.aspx?mid=10002&RetUrl=http%3a%2f%2fmatthey.mclg.se%3a80%2f"> Personalhandbok</a>
 <br>
-
+<a href="https://www.whatismyip.com/my-ip-information/?iref=public-ip">Whatsismyip.com</a>
 
 <br>
 
